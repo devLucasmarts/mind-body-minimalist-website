@@ -41,6 +41,16 @@ h3 {
     line-height: 125%;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav svg {
+    cursor: pointer;
+}
+
 .logo {
     display: flex;
     align-items: center;
