@@ -8,9 +8,7 @@ html, body {
     height: 100%;
 }
 
-body {
-    background-color: rgb(196, 196, 196);
-}
+body {}
 
 section {
     padding: 5%;
@@ -115,4 +113,30 @@ nav svg {
     height: 100vh;
     object-fit: cover;
     z-index: -1;
+}
+
+.classes {
+    color: var(--secondary-collor);
+    text-align: center;
+    font-family: 'argonite', sans-serif;
+}
+
+.videos video {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.meditation, .yoga, .pilates {
+    position: relative;
+}
+
+.videos h3 {
+    position: absolute;
+    color: var(--main-collor);
+    text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.4);
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 2rem;
 }
