@@ -10,6 +10,7 @@ html, body {
 
 body {
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 section {
@@ -27,7 +28,24 @@ section {
 }
 
 .links {
-    display: none;
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(100%);
+}
+
+.links a {
+    text-decoration: none;
+    color: var(--secondary-collor);
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 h2 {
